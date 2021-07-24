@@ -76,7 +76,7 @@ if(isGameOver!==true){
     roundScore= 0;
     document.getElementById('current-' + activePlayer).textContent= "0";
 // Тоглогч ялсан эсэхийг шалгана
-if(scores[activePlayer] >= 10 ){
+if(scores[activePlayer] >= 100 ){
     isGameOver=true;
     document.getElementById('name-'+ activePlayer).textContent ="WINNER!!!";
     document.querySelector('.player-'+ activePlayer + "-panel").classList.add('winner');
